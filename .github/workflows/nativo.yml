@@ -26,6 +26,6 @@ jobs:
         cd src
         java -cp . Main.java
     - name: Rodando Programa
-      run:  | 
+      run: | 
         cd src
         java -cp . Main
