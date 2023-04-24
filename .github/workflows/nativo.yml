@@ -22,4 +22,10 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
     - name: Compliando no Java
-      run: javac src/Main.java
+      run: 
+        cd src
+        java -cp .Main.java
+    - name: Rodando Programa
+      run: 
+        cd src
+        java -cp .Main
